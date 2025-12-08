@@ -1,4 +1,4 @@
-//Type Conversion
+//TypeConversion
 let a;
 //Others to String
 a=25;
