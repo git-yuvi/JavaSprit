@@ -1,0 +1,20 @@
+// RegExp flags
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Regular Expressions</h1>
+<h2>The /d Flag</h2>
+
+<p>Match all that starts or ends with aa or bb:</p>
+<p id="demo"></p>
+
+<script>
+let text = "aaaabb";
+const pattern = /(aa)(bb)/d;
+ 
+let result = text.match(pattern);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
