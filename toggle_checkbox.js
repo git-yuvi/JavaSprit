@@ -1,4 +1,4 @@
-//Toggle_checkbox
+//ToggleCheckbox
 <!DOCTYPE html>
 <html>
 <head>
