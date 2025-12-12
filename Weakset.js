@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript WeakSet</h1>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+// Create a WeakMap to store visit counts
+const visitsCount = new WeakMap();
+
+// Create Visitor Objects
+const John = {name:"John", age:40};
+const Paul = {name:"Paul", age:41};
+const Ringo = {name:"Ringo", age:42};
+const George = {name:"George", age:43};
+
+// Track visits
+track(Paul);
+track(Ringo);  
+track(Paul);
+track(Paul);
+track(John);
+
+// Function to track visitors
+function track(visitor) {
+  let count = visitsCount.get(visitor) || 0;
