@@ -1,0 +1,20 @@
+// JavaScript Range Errors
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Errors</h1>
+<h2>RangeError</h2>
+
+<p id="demo">
+
+<script>
+try {
+  new Array(-1);
+} catch(err) {
+  let text = err.name + "<br>" + err.message;
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
