@@ -1,4 +1,4 @@
-// JavaScript Errors
+//JavaScript Errors
 <html>
 <body>
 <h1>JavaScript Errors</h1>
