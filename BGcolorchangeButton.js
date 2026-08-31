@@ -1,4 +1,4 @@
-// Background Changer
+// Background Colour Changer
 
 https://codepen.io/javascriptacademy-stash/pen/oNeNMNR
 
