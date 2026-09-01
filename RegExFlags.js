@@ -1,4 +1,4 @@
-// RegExp flags
+//JavaScript RegExp flags
 <!DOCTYPE html>
 <html>
 <body>
