@@ -1,4 +1,4 @@
-// JavaScript Range Errors
+//JavaScript Range Errors
 <!DOCTYPE html>
 <html>
 <body>
