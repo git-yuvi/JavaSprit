@@ -1,0 +1,19 @@
+//JavaScript Sets
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Sets</h1>
+<p>Create a set from an array:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// Display set.size
+document.getElementById("demo").innerHTML = "The new set has " + letters.size + " values.";
+</script>
+
+</body>
+</html>
